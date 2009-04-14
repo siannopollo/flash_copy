@@ -1,0 +1,25 @@
+h1. Flash Copy
+
+p. A simple library for allowing users to copy urls to their clipboard by clicking on them.
+
+p. All the really important bits of this library have come from "Zeroclipboard":http://code.google.com/p/zeroclipboard.
+
+h3. Prerequisites
+
+p. prototype.js, lowpro.js
+
+h3. Usage
+
+<pre>
+  <p id="container">
+    <a id="link" href="http://example.com">http://example.com</a>
+  </p>
+  
+  <script type="text/javascript">
+    new Copier('link', 'container')
+  </script>
+</pre>
+
+h3. License
+
+p. Released under the "Creative Commons Attribution License":http://creativecommons.org/licenses/by/3.0/legalcode (if you use this library, just point them back to here :-)
